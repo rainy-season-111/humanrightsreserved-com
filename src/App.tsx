@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import './App.css'
 
 const TEXT = 'maybe something, one day.'
-const CHAR_DELAY = 55
+const CHAR_DELAY = 80
 
 export default function App() {
   const [charIndex, setCharIndex] = useState(0)
